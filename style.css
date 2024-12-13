@@ -1,0 +1,12 @@
+.decorative-image {
+    position: absolute;
+    width: 200px; /* Ajuste conforme o tamanho desejado */
+    height: auto; /* Mantém a proporção */
+    background-image: url('./assets/decor-star.png'); /* Substitua pelo caminho da imagem */
+    background-size: contain; /* Garante que a imagem fique ajustada ao tamanho */
+    background-repeat: no-repeat;
+    top: 83%; /* Posição vertical no container */
+    left: 78%; /* Posição horizontal no container */
+    z-index: 1; /* Certifique-se que está no plano correto */
+    opacity: 1; /* Um leve efeito de transparência */
+}
